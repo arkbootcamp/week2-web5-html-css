@@ -1,0 +1,84 @@
+/* destop */
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+    flex-direction: row;
+}
+.kiri{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    width: calc(100vw/2);
+}
+.kanan{
+    width: calc(100vw/2);
+}
+.kiri .box-img{
+    width:200px;
+    height:200px;
+}
+.kiri .box-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* tablet */
+/* @media (max-width:768px) and (min-width:576px){ */
+@media (max-width:768px){
+    .container{
+        flex-direction: column;
+    }
+    .kiri{
+        width: 100%;
+        order: 2;
+    }
+    .kanan{
+        width: 100%;
+        order: 1;
+    }
+}
+
+/* mobile */
+/* @media (max-width:576px){
+    .container{
+        background-color: blue;
+    }
+} */
+
+
+
+/*  */
+/* mobile */
+/* .container{
+    width: 100%;
+    height: 500px;
+    background-color: pink;
+} */
+
+/* tablet */
+/* @media (min-width:576px){
+    .container{
+        width: 700px;
+        margin: 10px auto;
+        background-color: blue;
+    }
+} */
+/* destop */
+/* @media (min-width:768px){
+    .container{
+        background-color: red;
+    }
+} */
+
+
+

@@ -1,0 +1,28 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+}
+.kiri{
+    flex-grow: 1;
+    background-image: url('./assest/img/bg.svg');
+}
+.kanan{
+    background-color: yellow;
+    flex-grow: 1;
+}
+ul{
+    margin-top: 0;
+}
+.kiri .box{
+    width: 300px;
+    min-height: 300px;
+    background-color: salmon;
+    overflow: auto;
+}

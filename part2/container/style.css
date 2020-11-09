@@ -1,0 +1,16 @@
+nav.bg-light{
+    background-color: salmon !important;
+}
+.jumbotron-fluid{
+    height: 350px;
+    background-image: url('./bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .row div{
+    border: 1px solid black;
+} */
+
+.btn-primary{
+    background-color: pink;
+}

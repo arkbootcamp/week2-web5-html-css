@@ -1,0 +1,14 @@
+ul li a{
+    color: red;
+}
+
+ul li:first-child a{
+    color: pink;
+}
+ul li:last-child a{
+    color: yellow;
+}
+
+ul li:nth-child(2n+1) a{
+    color: black;
+}
